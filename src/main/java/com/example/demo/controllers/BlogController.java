@@ -14,7 +14,6 @@ import java.util.Optional;
 @Controller
 public class BlogController {
 
-    private String word;
 
     @Autowired
     private PostRepository postRepository;
